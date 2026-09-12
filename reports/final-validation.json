@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "revision": "Detailed Redgrund RB19 exterior replaces procedural car",
+  "source_license": "CC BY 4.0; embedded metadata verified",
+  "visual_review": "Desktop and mobile screenshots inspected; real-car silhouette, wings, cockpit, suspension and livery present; internals hidden when assembled",
+  "web": "passed",
+  "media": "passed",
+  "loaded_vertices": 467759,
+  "max_draw_calls": 23,
+  "public_deployment": "not requested",
+  "accuracy": "Artistic RB19 exterior normalized to 2m width; internals educational, not certified 1:1 team CAD"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "duration_s": 120,
+  "frames": 3600,
+  "fps": 30,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "codec": "H.264 / AAC",
+  "audio_sample_rate_Hz": 48000,
+  "strict_decode": "passed",
+  "integrated_loudness_LUFS": -16.08,
+  "true_peak_dBTP": -4.34,
+  "clipping": false,
+  "narration": "macOS Samantha system-generated",
+  "foley": "none",
+  "csv_rows": 3600
+}

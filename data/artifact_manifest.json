@@ -1,0 +1,144 @@
+{
+  "deployment": {
+    "status": "GitHub Pages configured",
+    "url": "https://jungluchen.github.io/f1-power-unit-showcase/"
+  },
+  "assets": [
+    {
+      "path": "public/assets/ATTRIBUTION.md",
+      "bytes": 874,
+      "sha256": "d5ca02df252bc9bd118c10a70cc201c6ca587db82c61619478e0c15e753c7c01"
+    },
+    {
+      "path": "public/assets/draco/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "public/assets/draco/draco_wasm_wrapper.js",
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    {
+      "path": "public/assets/models/f1-power-unit.glb",
+      "bytes": 4674184,
+      "sha256": "3eaf211030efc0687d042615031364e17ffeef35b7983c7ed331c8a5ff757b70"
+    },
+    {
+      "path": "public/assets/models/ra166e-reference.glb",
+      "bytes": 5144376,
+      "sha256": "d90e3b5670fdc841800ee2fc6bb7355ab9b048568bbb72dc882251e42021ee10"
+    },
+    {
+      "path": "public/assets/textures/engine-beauty.png",
+      "bytes": 1958911,
+      "sha256": "2fffb7ae2e9bf8ecf3e2c48ad51794d7fe5597891e4fad9ec0b4fb568a0858ef"
+    },
+    {
+      "path": "public/assets/textures/engine-cutaway.png",
+      "bytes": 1876326,
+      "sha256": "166c4f1f9ded1df505535aa519f3ed0c12c6ab573d516da65e0ef7b176732fda"
+    },
+    {
+      "path": "public/assets/textures/plate-0.png",
+      "bytes": 1750572,
+      "sha256": "a3ae5dc42da2a67c6d6e2d095b269ebdb96c9cf2b4e55cee56b6fcec542b9611"
+    },
+    {
+      "path": "public/assets/textures/plate-1.png",
+      "bytes": 1842298,
+      "sha256": "f33169f1b6988a3cecae4d38db6211b280042904d4d95c717e34baac846c2bae"
+    },
+    {
+      "path": "public/assets/textures/plate-2.png",
+      "bytes": 1721015,
+      "sha256": "f74355036389b9c1f4db1c21b59b9802383569a82fb58f530687c08953ffa99a"
+    },
+    {
+      "path": "public/assets/textures/plate-3.png",
+      "bytes": 1749289,
+      "sha256": "da6e8e1d0be9f70380d283244456fe64d52c721a171ed252bb3943a2a9754e53"
+    },
+    {
+      "path": "public/assets/textures/plate-4.png",
+      "bytes": 1778726,
+      "sha256": "e55e0028899074154cbfd6f54046cf6f35781bf9b103ac7ba33ac696e14e659f"
+    },
+    {
+      "path": "public/assets/textures/plate-5.png",
+      "bytes": 1750960,
+      "sha256": "b77a59695fcaab41aeee23997151d61dfce65c418b7c5ae7902c2d82476984f4"
+    },
+    {
+      "path": "public/assets/textures/ra166e-beauty.png",
+      "bytes": 2001818,
+      "sha256": "dbe46c2086ed1248c89b83925d71343e79bcd496df8488e590b14998ecb670cc"
+    },
+    {
+      "path": "public/assets/textures/ra166e-cutaway.png",
+      "bytes": 1778086,
+      "sha256": "c537c01fb01347a2fbdfbe13295fb02d2d8339d76e3618195065ec2fa36d88da"
+    },
+    {
+      "path": "public/assets/video/captions.vtt",
+      "bytes": 2631,
+      "sha256": "65eade26a1dd92a4adb889bd539cb49aa610fa265f8a396f9d5bc2d2c047cb0d"
+    },
+    {
+      "path": "public/assets/video/f1-power-unit-master.mp4",
+      "bytes": 4446124,
+      "sha256": "3f71f7e7fc887766d01e2bb4ca1b1c9518a00834295e30f08b691559f09b6725"
+    },
+    {
+      "path": "public/assets/video/poster.jpg",
+      "bytes": 86498,
+      "sha256": "e93e17614b734d316a48b104cc7f657c249eaeda7e02e5e34844ce98230b5517"
+    },
+    {
+      "path": "public/data/academic_citations.json",
+      "bytes": 643,
+      "sha256": "e945c89c6460e91f3192e5f8fc9be3dac548d100becb1354f077aa3f28f79ca0"
+    },
+    {
+      "path": "public/data/engine-rebuild.json",
+      "bytes": 657,
+      "sha256": "8b2b4b009a6d486fc1649e35154d52d6e071cf2603386bdc70d5e6812b226eca"
+    },
+    {
+      "path": "public/data/ground_truth_physics.json",
+      "bytes": 5446,
+      "sha256": "0ccf6c56ddb51a7ad45536c5268f73928a08b603463f0f84812803dbe614751e"
+    },
+    {
+      "path": "public/data/milestone_history.json",
+      "bytes": 689,
+      "sha256": "b70fb382917fe245a73fc0999509df256c0b6548bd04d9de10f02d8ccbe88d12"
+    },
+    {
+      "path": "public/data/ra166e-rebuild.json",
+      "bytes": 1074,
+      "sha256": "db8e1063945ef9de6b42e61a6587405d3af200183690f97fd121daf33346d6cd"
+    },
+    {
+      "path": "public/data/validation.json",
+      "bytes": 836,
+      "sha256": "b8df264ecb7096076d522f71d8bcb1b6b6116955ce7a2e099aa6e9af68fe3dc6"
+    },
+    {
+      "path": "public/data/web_export.json",
+      "bytes": 915,
+      "sha256": "d533d536526941db0ae61fcfe390c5a237b669a3e227217c8d32f66ecab60e21"
+    },
+    {
+      "path": "public/docs/technical-notes.md",
+      "bytes": 11469,
+      "sha256": "aaa0b3890665a4ea1634600aa2fc906e9c63a901fd98d2ad0309b1333e606451"
+    }
+  ],
+  "total_public_bytes": 32835293,
+  "limits": {
+    "GLB_bytes": 10000000,
+    "texture_max_dimension": 2048,
+    "public_payload_bytes": 60000000
+  }
+}

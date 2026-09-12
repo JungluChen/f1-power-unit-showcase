@@ -1,0 +1,12 @@
+{
+  "basis": "Honda RA621H published front/rear/side views and V6 architecture article",
+  "reference_url": "https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/",
+  "accuracy": "reference-informed original reconstruction, not Honda CAD or RB19 exact engine",
+  "geometry": "billet crankcase, head covers, carbon plenums, insulated manifolds, split turbo, MGU-H, MGU-K, sealed energy store, six articulated pistons/rods",
+  "crank_radius_m": 0.0265,
+  "rod_length_m": 0.11,
+  "bore_m": 0.079,
+  "mechanism_assumption": "illustrative slider crank; no claim to manufacturer firing order",
+  "GLB_bytes": 4674184,
+  "vertices": 486596
+}

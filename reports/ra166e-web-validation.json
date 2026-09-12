@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "assembled": {
+    "loaded": true,
+    "error": null,
+    "chapter": 2,
+    "drawCalls": 74,
+    "vertices": 604997,
+    "engineMode": "assembled",
+    "running": false,
+    "crankAngle": 0,
+    "pistonCount": 6,
+    "rodLengthError": 2.7755575615628914e-17,
+    "triangles": 209566,
+    "progress": 2
+  },
+  "cutaway": {
+    "loaded": true,
+    "error": null,
+    "chapter": 2,
+    "drawCalls": 50,
+    "vertices": 604997,
+    "engineMode": "cutaway",
+    "running": true,
+    "crankAngle": 3.0460882368785316,
+    "pistonCount": 6,
+    "rodLengthError": 2.7755575615628914e-17,
+    "triangles": 43806,
+    "progress": 2
+  },
+  "overflow": false,
+  "errors": []
+}

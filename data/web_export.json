@@ -1,0 +1,32 @@
+{
+  "source": "Redgrund / Oracle Red Bull F1 Car RB19 2023",
+  "license": "CC BY 4.0",
+  "source_sha256": "e1bf621f3ddf48e90a44a2ce8083c29f9c758ecf4ae1d499a0a321ef1cbb0b3b",
+  "exterior_width_m": 2,
+  "scale_method": "uniform normalization to 2m regulatory width; not a verified team CAD dimension",
+  "model_bytes": 4674184,
+  "vertices": 486596,
+  "texture_dimensions": [
+    [
+      1024,
+      1024
+    ],
+    [
+      1024,
+      1024
+    ],
+    [
+      1024,
+      1024
+    ]
+  ],
+  "coordinates": "Blender Z up -> glTF Y up",
+  "draco": {
+    "level": 6,
+    "position_bits": 16,
+    "normal_bits": 10
+  },
+  "reveal": "aft shell geometric partition; illustrative internals; not service-panel topology",
+  "engine_reference": "https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/",
+  "engine_accuracy": "reference-informed original reconstruction, not Honda CAD or RB19 exact engine"
+}

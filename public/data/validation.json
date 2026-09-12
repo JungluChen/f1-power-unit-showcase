@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "samples": 14400,
+  "stored_range_J": [
+    1167105.2632,
+    2774250.0
+  ],
+  "energy_residual_max_J": 1.6659032553434372e-07,
+  "finite_telemetry": true,
+  "k_recovered_J": 1425000.0000000163,
+  "es_deployed_J": 3157894.736842224,
+  "proxy_nonpenetration": {
+    "minimum_gap_m": 0.09,
+    "scope": "disjoint test cores only; visual housings not certified"
+  },
+  "contact_speed_m_s": {
+    "value": 0,
+    "scope": "no contact events in reference proxy model"
+  },
+  "settled_state": {
+    "endpoint_speed": 0,
+    "scope": "analytical derivative of editorial quintic; not dynamic settling"
+  },
+  "kinematic_endpoints": [
+    0,
+    1
+  ],
+  "limitations": [
+    "No combustion, thermal field, cell electrochemistry, tire or lap-time simulation",
+    "Illustrative cycle; not regulatory homologation"
+  ]
+}

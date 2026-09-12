@@ -1,0 +1,178 @@
+{
+  "title": "Formula 1 power unit / 2014\u20132025 architecture",
+  "status": "Detailed artistic RB19 exterior with educational internals; not verified team CAD or a validated digital twin",
+  "sources": {
+    "FIA2025": "https://www.fia.com/sites/default/files/fia_2025_formula_1_technical_regulations_-_issue_01_-_2024-12-11_1.pdf",
+    "FIA2026": "https://www.fia.com/news/new-era-competition-fia-showcases-future-focused-formula-1-regulations-2026-and-beyond",
+    "Mercedes": "https://www.mercedesamgf1.com/team/location/brixworth",
+    "HondaEngine": "https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/"
+  },
+  "published_facts": {
+    "displacement": {
+      "value": 0.0016,
+      "unit": "m^3",
+      "source": "FIA2025 Article 5.2"
+    },
+    "cylinders": {
+      "value": 6,
+      "source": "FIA2025 Article 5.2"
+    },
+    "bank_angle": {
+      "value": 90,
+      "unit": "degrees",
+      "source": "FIA2025 Article 5.2"
+    },
+    "mgu_k_power_limit": {
+      "value": 120000,
+      "unit": "W",
+      "source": "FIA2025 Article 5.3.3"
+    },
+    "k_to_store_per_lap": {
+      "value": 2000000,
+      "unit": "J",
+      "source": "FIA2025 Article 5.3.2 energy flow diagram"
+    },
+    "store_to_k_per_lap": {
+      "value": 4000000,
+      "unit": "J",
+      "source": "FIA2025 Article 5.3.2 energy flow diagram"
+    },
+    "thermal_efficiency": {
+      "value": ">50%",
+      "source": "Mercedes",
+      "scope": "manufacturer claim; not all operating points or all teams"
+    },
+    "2026": {
+      "value": "MGU-H removed; MGU-K maximum increased to 350 kW",
+      "source": "FIA2026"
+    }
+  },
+  "design_inputs": {
+    "chapters": {
+      "value": [
+        "Assembly",
+        "Reveal",
+        "V6 ICE",
+        "MGU-H",
+        "MGU-K",
+        "Energy store"
+      ],
+      "source": "user brief"
+    },
+    "duration": {
+      "value": 120,
+      "unit": "s",
+      "source": "invoked skill default"
+    }
+  },
+  "modeling": {
+    "dimensions": {
+      "value": [
+        5.5,
+        2.0,
+        1.1
+      ],
+      "unit": "m",
+      "assumption": "schematic vehicle envelope, not a team car"
+    },
+    "mass": {
+      "value": 800,
+      "unit": "kg",
+      "assumption": "illustrative vehicle bookkeeping only"
+    },
+    "mass_distribution": {
+      "value": [
+        0.46,
+        0.54
+      ],
+      "unit": "front/rear fractions",
+      "assumption": "unused by energy model"
+    },
+    "center_of_mass": {
+      "value": [
+        0,
+        0,
+        0.35
+      ],
+      "unit": "m",
+      "assumption": "unused by kinematic reveal"
+    },
+    "gravity": {
+      "value": [
+        0,
+        0,
+        -9.81
+      ],
+      "unit": "m/s^2",
+      "assumption": "scene convention; no free-body integration"
+    },
+    "contact_friction": {
+      "value": 0,
+      "assumption": "no contact dynamics; articulated schematic with deliberately overlapping visual housings"
+    },
+    "solver_rate": {
+      "value": 120,
+      "unit": "Hz",
+      "assumption": "energy ledger integration"
+    },
+    "collision_tolerance": {
+      "value": 0.001,
+      "unit": "m",
+      "assumption": "disjoint internal test proxies only, not visual housing clearance"
+    },
+    "initial_conditions": {
+      "value": {
+        "store_J": 2000000,
+        "recovered_J": 0,
+        "deployed_J": 0
+      },
+      "assumption": "illustrative cycle"
+    },
+    "efficiency": {
+      "value": 0.95,
+      "assumption": "constant bidirectional K conversion; not measured"
+    },
+    "coordinate_convention": {
+      "value": "Blender +Z up, +X longitudinal; glTF exports +Y up (x,y,z -> x,z,-y)",
+      "assumption": "project convention"
+    },
+    "motion": {
+      "value": "quintic smoothstep keyframed editorial transforms",
+      "assumption": "not an explosion dynamics simulation"
+    },
+    "uncertainty": {
+      "value": "geometry, component masses, packaging, losses and operating schedule illustrative; no team telemetry",
+      "assumption": "no proprietary inputs available"
+    },
+    "known_failure_modes": {
+      "value": [
+        "constant efficiencies omit temperature and RPM effects",
+        "energy schedule is not a racing lap",
+        "schematic surfaces intersect at assembly interfaces",
+        "motion is slowed and separated for readability"
+      ],
+      "assumption": "model scope"
+    }
+  },
+  "validation_results": {
+    "derived_from": "data/validation.json"
+  },
+  "exterior_provenance": {
+    "source": "https://sketchfab.com/3d-models/oracle-red-bull-f1-car-rb19-2023-e4afe46f3aab4b23a418da06fc163821",
+    "author": "Redgrund",
+    "license": "CC BY 4.0",
+    "assumption": "uniform display width normalized to 2m; no 1:1 engineering accuracy claim"
+  },
+  "engine_reconstruction": {
+    "basis": "Honda RA621H published front/rear/side views and V6 architecture article",
+    "reference_url": "https://global.honda/en/tech/motorsports/Formula-1/Powertrain_V6_power_unit/",
+    "accuracy": "reference-informed original reconstruction, not Honda CAD or RB19 exact engine",
+    "geometry": "billet crankcase, head covers, carbon plenums, insulated manifolds, split turbo, MGU-H, MGU-K, sealed energy store, six articulated pistons/rods",
+    "crank_radius_m": 0.0265,
+    "rod_length_m": 0.11,
+    "bore_m": 0.079,
+    "mechanism_assumption": "illustrative slider crank; no claim to manufacturer firing order",
+    "GLB_bytes": 4674184,
+    "vertices": 486596
+  }
+}

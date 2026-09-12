@@ -1,0 +1,139 @@
+{
+  "assets": [
+    {
+      "path": "assets/models/f1-power-unit.glb",
+      "status": 200
+    },
+    {
+      "path": "assets/video/f1-power-unit-master.mp4",
+      "status": 200
+    },
+    {
+      "path": "assets/video/captions.vtt",
+      "status": 200
+    },
+    {
+      "path": "data/ground_truth_physics.json",
+      "status": 200
+    },
+    {
+      "path": "docs/technical-notes.md",
+      "status": 200
+    }
+  ],
+  "video": {
+    "duration": 120,
+    "width": 1280,
+    "height": 720,
+    "captions": 1
+  },
+  "mechanism": {
+    "loaded": true,
+    "error": null,
+    "chapter": 2,
+    "drawCalls": 50,
+    "vertices": 546992,
+    "engineMode": "cutaway",
+    "running": true,
+    "crankAngle": 2.3227365284597012,
+    "pistonCount": 6,
+    "rodLengthError": 2.7755575615628914e-17,
+    "triangles": 43806,
+    "progress": 2
+  },
+  "status": "passed",
+  "samples": [
+    {
+      "loaded": true,
+      "error": null,
+      "chapter": 0,
+      "drawCalls": 3,
+      "vertices": 546992,
+      "engineMode": "assembled",
+      "running": false,
+      "crankAngle": 0,
+      "pistonCount": 6,
+      "rodLengthError": 4.163336342344337e-17,
+      "triangles": 674994,
+      "progress": 0
+    },
+    {
+      "loaded": true,
+      "error": null,
+      "chapter": 1,
+      "drawCalls": 31,
+      "vertices": 546992,
+      "engineMode": "assembled",
+      "running": false,
+      "crankAngle": 0,
+      "pistonCount": 6,
+      "rodLengthError": 4.163336342344337e-17,
+      "triangles": 756626,
+      "progress": 1
+    },
+    {
+      "loaded": true,
+      "error": null,
+      "chapter": 2,
+      "drawCalls": 29,
+      "vertices": 546992,
+      "engineMode": "assembled",
+      "running": false,
+      "crankAngle": 0,
+      "pistonCount": 6,
+      "rodLengthError": 4.163336342344337e-17,
+      "triangles": 81634,
+      "progress": 2
+    },
+    {
+      "loaded": true,
+      "error": null,
+      "chapter": 3,
+      "drawCalls": 29,
+      "vertices": 546992,
+      "engineMode": "assembled",
+      "running": false,
+      "crankAngle": 0,
+      "pistonCount": 6,
+      "rodLengthError": 4.163336342344337e-17,
+      "triangles": 81634,
+      "progress": 3
+    },
+    {
+      "loaded": true,
+      "error": null,
+      "chapter": 4,
+      "drawCalls": 29,
+      "vertices": 546992,
+      "engineMode": "assembled",
+      "running": false,
+      "crankAngle": 0,
+      "pistonCount": 6,
+      "rodLengthError": 4.163336342344337e-17,
+      "triangles": 81634,
+      "progress": 4
+    },
+    {
+      "loaded": true,
+      "error": null,
+      "chapter": 5,
+      "drawCalls": 29,
+      "vertices": 546992,
+      "engineMode": "assembled",
+      "running": false,
+      "crankAngle": 0,
+      "pistonCount": 6,
+      "rodLengthError": 4.163336342344337e-17,
+      "triangles": 81634,
+      "progress": 5
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "orbit": "true",
+  "reset": "false",
+  "fallback": true,
+  "errors": []
+}

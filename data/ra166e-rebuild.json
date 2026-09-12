@@ -1,0 +1,21 @@
+{
+  "basis": "User-supplied Honda RA166E photograph and Honda RA166E official specifications",
+  "reference_url": "https://global.honda/en/POWEREDbyHONDA/1986_ra166e/",
+  "accuracy": "reference-informed original reconstruction, not Honda CAD or RB19 exact engine",
+  "geometry": "black cast housings, broad intake plenum, twin turbos, exposed polished exhausts, flywheel, fuel rails, six articulated pistons",
+  "crank_radius_m": 0.0254,
+  "rod_length_m": 0.11,
+  "bore_m": 0.079,
+  "mechanism_assumption": "illustrative slider crank; no claim to manufacturer firing order",
+  "GLB_bytes": 5144376,
+  "vertices": 599828,
+  "moving_core": "Offset crankpins, asymmetric counterweights, paired split-cap H-section rods, hollow wrist pins, hollow slipper pistons, ring pack and valve reliefs",
+  "mechanical_references": [
+    "https://www.us.mahle.com/en/motorsports/forged-pistons-features-and-benefits/",
+    "https://www.us.mahle.com/en/motorsports/proseries-pistons/"
+  ],
+  "joint_validation": {
+    "maxError": 3.453202922036438e-08,
+    "sweep": 14.122558535272741
+  }
+}
