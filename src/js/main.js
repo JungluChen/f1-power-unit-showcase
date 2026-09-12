@@ -12,10 +12,11 @@ if(historic){
  document.querySelector('.stage-top').innerHTML='<span><i></i> HONDA RA166E / REFERENCE STUDY</span><span>1986 / TWIN TURBO V6</span>';
  document.querySelector('.model-note span:last-child').textContent='ORIGINAL RECONSTRUCTION / PHOTO REFERENCE';
  document.querySelector('.era-note').innerHTML='<span>AN EDITORIAL ENGINE STUDY</span><p>The 2023 RB19 exterior introduces the 1986 Honda RA166E reference engine. These are separate generations, combined here for the visual reveal.</p>';
- document.querySelector('#film').remove();
  const text=document.querySelector('#chapter-2 .chapter-content');text.innerHTML='<p class="eyebrow">1986 / HONDA RA166E</p><h2>Built under<br>pressure.</h2><p>Black cast housings. Exposed exhausts. Twin turbochargers. An engine study built around your Honda reference photograph.</p><div class="detail"><span>80° V6 · TWIN TURBO · DRY SUMP</span><strong>1,494 cm³</strong><p>Inspect the assembled engine, or select Cutaway and run the six-piston mechanism in slow motion.</p><a class="reference-link" href="?engine=hybrid">Return to the modern hybrid exhibit ↗</a></div>';
  document.querySelector('#sources').innerHTML='<p class="eyebrow">THE REFERENCE</p><h2>Honda RA166E, 1986.</h2><p>Original 3D reconstruction from your supplied photograph. Honda specifies an 80° V6, 1,494 cm³, twin turbochargers, and a 79 × 50.8 mm bore and stroke. Hidden geometry and connecting-rod dimensions are approximations.</p><a class="reference-link" href="https://global.honda/en/F1/machine/1986_WilliamsHondaFW11/">Honda technical specifications ↗</a><br><a class="reference-link" href="assets/textures/ra166e-beauty.png">Open the full-resolution studio render ↗</a>';
- document.querySelector('header nav').innerHTML='<a href="#chapter-0">The anatomy</a><a href="?engine=hybrid">Hybrid exhibit</a><a href="#sources">Reference</a>';
+ document.querySelector('#film > div h2').textContent='See the machine move.';
+ document.querySelector('#film > div p:last-child').textContent='A two-minute narrated technical film follows the car opening, engine architecture and energy story.';
+ document.querySelector('header nav').innerHTML='<a href="#chapter-0">The anatomy</a><a href="#film">Technical film</a><a href="?engine=hybrid">Hybrid exhibit</a><a href="#sources">Reference</a>';
  document.querySelector('#chapter-0 h1').innerHTML='Inside the car.<br><em>Into the</em><br>engine.';
  document.querySelector('#chapter-0 .lead').textContent='Scroll from the detailed RB19 exterior into the Honda RA166E reference study, then separate its major assemblies.';
  document.querySelector('#chapter-0 .hero-stats').innerHTML='<div><strong>1986</strong><small>HONDA ENGINE REFERENCE</small></div><div><strong>V6</strong><small>TWIN TURBO</small></div>';
